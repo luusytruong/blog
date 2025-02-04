@@ -1,0 +1,103 @@
+form [type="submit"],
+.btn-cancel-update {
+    aspect-ratio: unset !important;
+    margin: 0 !important;
+    background-color: #da6698 !important;
+    opacity: 1 !important;
+    color: #FFF;
+    padding: 8px 12px;
+    width: unset !important;
+    gap: 8px;
+    font-size: 14px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+form [type="submit"] i {
+    font-size: 14px !important;
+    color: #FFF;
+}
+
+form [type="submit"]:hover {
+    background-color: #FF73AF !important;
+}
+
+.post-body {
+    align-items: stretch;
+}
+
+.post-body .title,
+.post-body .content {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    resize: none;
+    display: unset !important;
+    text-overflow: unset !important;
+    line-clamp: unset !important;
+    -webkit-line-clamp: unset !important;
+    -webkit-box-orient: unset !important;
+    overflow: auto;
+    /* all: unset;
+    margin-bottom: 42px; */
+}
+
+.image {
+    position: relative;
+}
+
+.image * {
+    color: #fff;
+}
+
+.image i {
+    font-size: 14px;
+}
+
+.image label,
+.image button {
+    position: absolute;
+    width: 32px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3c3d5160;
+    right: 40px;
+    top: 4px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+[type='file'] {
+    display: none !important;
+}
+
+.image button {
+    right: 4px;
+    top: 4px;
+}
+
+.image button:hover,
+.image label:hover {
+    background-color: #3c3d51cc;
+}
+
+.btn-cancel-update {
+    margin-right: 12px !important;
+    background-color: #3c3d51 !important;
+}
+
+.btn-cancel-update:hover {
+    background-color: #9e5b8b !important;
+}
+
+header,
+footer {
+    display: none;
+}
+
+.app {
+    padding: 0;
+}

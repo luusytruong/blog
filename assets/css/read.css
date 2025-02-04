@@ -1,0 +1,30 @@
+.post .content {
+    display: unset !important;
+}
+
+.post .back {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.post .back * {
+    color: #FFF;
+    transition: 0.2s;
+}
+
+.post .btn-back {
+    background-color: #da6698;
+    padding: 4px 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.post .btn-back:hover {
+    background-color: #FF73AF;
+}
